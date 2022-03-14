@@ -1,0 +1,24 @@
+
+
+.editNew {
+    min-height: 80vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: flex-start;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) and (max-width: 2559px){
+
+.editNew{
+    min-height: 80vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+}

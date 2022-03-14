@@ -1,0 +1,16 @@
+@media (min-width: 1024px) and (max-width: 2559px){
+    .news__list_5{
+
+        padding-top: 40px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .butt{
+        padding-top: 0;
+        margin: 10px;
+    }
+    .txt_2{
+        margin: 10px;
+    }
+}

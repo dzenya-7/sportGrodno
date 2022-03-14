@@ -1,0 +1,27 @@
+.modal{
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal.active{
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 1;
+    width: 100vw;
+    z-index: 999;
+    height: 130vh;
+    top: -30vh;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    left: 0;
+    pointer-events: all;
+    cursor: alias;
+
+}
+.modal__content{
+    cursor: pointer;
+
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.main_title{
+
+}
+.titles{
+    margin: 10px 20px;
+
+}
+.footer{
+    background: black;
+    z-index: 100000;
+    border-top: 4px solid #00ffff;
+    padding-left: 20px;
+    margin: 0px;
+    width: 100%;
+}
+.second_title{
+    margin:5px 0;
+}
+.third_title{
+    margin: 10px;
+    margin: auto;
+    text-align: center;
+}
+.li2{
+    margin: 20px;
+}

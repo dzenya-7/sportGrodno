@@ -1,0 +1,15 @@
+.text{
+    size:50vw;
+    cols: 100;
+}
+.editPage{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    min-height: 80vh;
+}
+.btn{
+
+    width: 100px;
+}

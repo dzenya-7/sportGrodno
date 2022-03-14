@@ -1,0 +1,20 @@
+@media (min-width: 1024px) and (max-width: 2559px){
+    .news__list_4{
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+.news__list_4{
+    min-height: 85vh;
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}

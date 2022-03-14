@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.4.1",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "mobx": "^6.3.8",
+    "mobx-react-lite": "^3.2.2",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.13",
+    "nightmare": "^3.0.2",
+    "performance-now": "^2.1.0",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.0-beta.0",
+    "use-state-if-mounted": "^1.0.4"
+  },
+  "scripts": {
+    "client": "npm run client --prefix client",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\"",
+    "dev_2": "concurrently  \"npm run server\" \"npm run client\"",
+    "server": "node app.js",
+    "parser": "node parser.js",
+    "champ": "node champ.js",
+    "school": "node school.js",
+    "parser_2": "node translation_parser.js",
+    "parser_3": "node news_parser.js"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^11.0.0"
+  }
+}
